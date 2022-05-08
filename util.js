@@ -9,8 +9,8 @@ module.exports.getNewNameBase64 = function(fileName){
     for(var i=1;i<=10;i++){
         var s1 = arr[Math.floor(len/(2*i))];
         if(s1=='/'||s1=='+'){
-            var eng_index = Math.floor(Math.random()*10+1);
-            s1 = eng[eng_index-1];
+            var eng_index = len % 10;
+            s1 = eng[eng_index];
         }
         fis = fis + s1;
     }
