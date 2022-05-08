@@ -1,6 +1,6 @@
 {
     "name": "hexo-abbrlink-base64",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A Hexo plugin to generate static post link based on post titles.use base64",
     "main": "index.js",
     "scripts": {
